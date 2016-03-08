@@ -1,0 +1,65 @@
+/* GLOBAL LINKS */
+a { color:#216497; }
+/*a:hover { border-bottom:dotted 1px #216497; }*/
+
+/* TOP NAV */
+#top-nav { border-bottom:solid 1px #e5e5e5; }
+
+/* TOP BANNER */
+#top-banner a:hover { border-bottom:none; }
+
+/* SEARCH */
+#search input.term { border:solid 1px #e5e5e5; margin-right:5px; font-size:12px; height:14px; }
+#search input.btn-search { background:#216497; color:#fff; padding:4px; }
+
+/* IMAGES WITH CAPTION */
+.caption p { color:#444; }
+
+/* FEATURED AREA */
+#featured { border-top:solid 3px #e5e5e5; }
+
+/* POST */
+.post { border-top:solid 3px #e5e5e5; }
+
+/* MAIN NAVIGATION */
+.main-nav { width:100%; background:#fff; /*border-top:solid 3px #e5e5e5;*/ border-bottom:solid 1px #e5e5e5; }
+.main-nav li { border-right:solid 1px #f1f1f1; }
+.main-nav li li { background:#fff; border-bottom:solid 1px #f1f1f1; }
+.main-nav li li li { background:#fff; }
+.main-nav li:hover,.main-nav li.sfHover,.main-nav a:focus,.main-nav a:hover,.main-nav a:active { background:#f1f1f1; outline:0; }
+
+/* COMMENTS */
+#comment-list { border-bottom:solid 1px #f1f1f1; margin-bottom:20px; }
+.comment-text { border-top:solid 1px #f1f1f1; }
+
+/* FORM */
+.post-form { margin-top:5px; }
+label { display:block; margin-bottom:5px; }
+.input-text,textarea { font-size:13px; padding:5px; margin-bottom:15px; }
+.input-button { padding:5px; font-size:13px; }
+textarea { width:80%; height:200px; }
+
+/* LAST UPDATE BAR */
+#last-update { background:#fffde6; border-top:solid 1px #efecc9; border-bottom:solid 1px #efecc9; }
+
+/* CATEGORY TITLES */
+p.categories { color:#555; }
+p.categories a { color:#bf1919; }
+p.categories a:hover { border-bottom:dotted 1px #bf1919; }
+p.meta { border-top:solid 1px #e5e5e5; border-bottom:solid 1px #e5e5e5; }
+span.time { font-weight:normal; color:#e1852c; }
+
+/* CATEGORY WIDGETS */
+.side-category { border-top:solid 3px #e5e5e5; }
+.side-banner { border-top:solid 3px #e5e5e5; padding:15px 0; }
+
+/* GENERIC WIDGETS */
+.side-item h4 { border-top:solid 3px #e5e5e5; padding:15px 0; }
+.side-item ul li a { border-bottom:solid 1px #fff; }
+.side-item ul li a:hover { border-bottom:dotted 1px #216497; }
+
+/* SIDE BANNERS */
+.side-banner a:hover { border-bottom:none; }
+
+/* FOOTER */
+#footer { border-bottom:solid 3px #e5e5e5; }

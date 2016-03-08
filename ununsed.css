@@ -1,0 +1,86 @@
+/* STRUCTURE */
+
+/*#sidebar2, #footer3 { width:260px; float:right; }*/
+.post { padding:15px 0; }
+
+/* SEARCH */
+#search { position:absolute; top:5px; right:15px;  }
+#search p { float:left; }
+#search input { border:none; padding:4px; font-size:11px;}
+
+/* BANNER 468X60 (TOP RIGHT) */
+#top-banner { position:absolute; top:85px; right:0; }
+
+/* LAST UPDATE BAR */
+#last-update { padding:10px 15px; font:normal 12px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; position:relative; }
+#subscribe ul { position:absolute; top:8px; right:15px;}
+#subscribe ul li { float:left; margin-left:15px;}
+#subscribe ul li a { display:block; font-weight:bold; padding:2px 0 2px 20px; }
+#rss a { background: url(images/icons_subscribe.gif) no-repeat 0 2px; }
+#email a { background: url(images/icons_subscribe.gif) no-repeat 0 -26px; }
+
+/* IMAGES WITH CAPTION */
+.caption img { display:block; padding-bottom:5px; }
+.caption p { font:normal 11px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; }
+
+/* FEATURED STORY */
+#featured { margin-top:20px; padding-top:15px; }
+#featured-image { float:left; width:446px; }
+#featured-story { float:right; width:515px; }
+#featured-story h2 { font-size:36px; }
+#featured-story p.meta { padding:8px 0; }
+
+/* COMMON STYLES (POST - SIDEBARS) */
+p.categories { color:#555; font-style:italic; }
+p.categories a { font:bold 12px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; }
+p.meta { font:normal 12px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; }
+p.meta a { font-weight:bold; }
+span.date { font-weight:bold; }
+span.author { font-family:Georgia, sans-serif; font-style:italic; }
+
+/* SIDEBAR STYLES */
+.sidebar h3 { font:bold 16px/22px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; }
+.sidebar p.meta { padding:4px 0; font-size:11px; }
+.sidebar p.side-author { font:normal 11px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; }
+.sidebar p { font-size:13px; margin-bottom:10px; font-size:13px;}
+.sidebar span.author { font-size:11px; }
+
+/* POST STYLES */
+.post { margin-bottom:5px; }
+.post img { display:block; }
+.post p.meta { padding:8px 0; }
+.post span.author { font-size:13px; }
+.post ul { list-style:disc; list-style-position:inside; margin-bottom:15px; }
+.post li { padding-left:15px; }
+.post ol { list-style:decimal; list-style-position:inside; margin-bottom:15px; }
+.post blockquote { font-style:italic; margin-bottom:15px; padding-left:15px; }
+
+/* COMMENTS */
+.post-comments { padding:0; margin-top:5px; font-size:13px;}
+.comment-text { padding:15px 0; }
+.comment-copy { margin-left:60px; }
+.comment-meta { font-size:12px; margin-bottom:5px; }
+.avatar { float:left; margin-top:5px; }
+.depth-2,.depth-3,.depth-4,.depth-5,.depth-6 { margin-left:30px; }
+.btn-reply { margin-top:15px; }
+
+/* FORMS */
+.input-text,textarea { border:solid 1px #c1c1c1; }
+.input-button { background:#333; color:#fff; border:none; }
+
+/* PAGING */
+#paging a { font:bold 12px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; }
+
+/* SIDE CATEGORIES */
+.side-category { padding:15px 0 0; margin-bottom:20px;  }
+.side-category li { padding-bottom:10px; }
+
+/* SIDE BANNERS */
+.side-banner { margin-bottom:15px; }
+
+/* WIDGET STYLES */
+.side-item { padding-bottom:25px; font-size:13px; }
+.side-item h4 { font:bold 12px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; }
+.side-item ul li a { display:block; font: normal 13px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif; margin-bottom:9px; }
+
+#main { margin:20px 0; }

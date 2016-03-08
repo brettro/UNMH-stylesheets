@@ -1,0 +1,5 @@
+/* clearfix for ie6 */
+* html .group { height: 1%; }
+.sf-sub-indicator { top:1.2em; }
+#sidebar1 { margin-right:0; }
+.sidebar ul li { display:inline; }

@@ -1,0 +1,29 @@
+/* NAVIGATION */
+.main-nav {background-color: #3c9dd0;line-height:1; /*margin:5px 0;*/ font:normal 13px "Helvetica Neue", Helvetica, Tahoma, Arial, Verdana, sans-serif;text-transform: uppercase;}
+.main-nav ul {position:absolute; top:-999em; width:15em;}
+.main-nav ul li {width:100%;}
+.main-nav li:hover {visibility:inherit;}
+.main-nav li {float:left; position:relative; z-index:2000;}
+.main-nav a {display:block; position:relative; padding:.9em 15px .95em; text-decoration:none; font-weight:bold;color:#ffffff;}
+.main-nav a:hover {border-bottom:none;}
+.main-nav li:hover ul,.main-nav li.sfHover ul {left:0; top:3.2em; z-index:99;}
+.main-nav li:hover li ul,.main-nav li.sfHover li ul {top:-999em;}
+.main-nav li li:hover ul,.main-nav li li.sfHover ul {left:15em; top:0;}
+.main-nav li li:hover li ul,.main-nav li li.sfHover li ul {top:-999em;}
+.main-nav li li li:hover ul,.main-nav li li li.sfHover ul { left:10em; top:0; }
+.main-nav a.sf-with-ul { padding-right:2.25em; min-width:1px;}
+.main-nav ul .sf-sub-indicator { background-position:-10px 10px; }
+.main-nav ul a > .sf-sub-indicator { background-position:0 0; }
+.main-nav ul a:focus > .sf-sub-indicator,.main-nav ul a:hover > .sf-sub-indicator,.main-nav ul a:active > .sf-sub-indicator,.main-nav ul li:hover > a > .sf-sub-indicator,.main-nav ul li.sfHover > a > .sf-sub-indicator { background-position:-10px 0;}
+.main-nav ul {/*background:url(images/shadow.png) no-repeat bottom right;*/ padding:0 8px 9px 0; -moz-border-radius-bottomleft:17px; -moz-border-radius-topright:17px; -webkit-border-top-right-radius:17px; -webkit-border-bottom-left-radius:17px; }
+.main-nav ul.sf-shadow-off { background:transparent; }
+.sf-sub-indicator {position:absolute; display:block; right:.75em; top:1.35em; width:10px; height:10px; text-indent:-999em; overflow:hidden; background:url(images/arrows-ffffff.png) no-repeat -10px -100px;}
+a > .sf-sub-indicator {top:1.1em; background-position:0 -100px;}
+a:focus > .sf-sub-indicator,a:hover > .sf-sub-indicator,a:active > .sf-sub-indicator,li:hover > a > .sf-sub-indicator,li.sfHover > a > .sf-sub-indicator {background-position:-10px -100px;}
+
+/* MAIN NAVIGATION */
+.main-nav {width:100%; /*background:#fff; border-top:solid 3px #e5e5e5;*/ border:solid 1px #e5e5e5;}
+/*.main-nav li { border-right:solid 1px #f1f1f1; }*/
+.main-nav li li {background:#3c9dd0; border-bottom:solid 1px #f1f1f1;}
+.main-nav li li li {background:#3c9dd0;}
+.main-nav li:hover,.main-nav li.sfHover,.main-nav a:focus,.main-nav a:hover,.main-nav a:active {background:#086ca2; outline:0;}

@@ -1,0 +1,8 @@
+/*Loads fonts for titles...*/
+
+@font-face {
+    font-family:'OstrichSansBlack';
+    src: url('ostrich-black-webfont.eot?#iefix') format('embedded-opentype'), url('ostrich-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
